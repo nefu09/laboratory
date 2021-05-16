@@ -1,0 +1,16 @@
+###
+GET  http://localhost:8080/test
+token:5f9e3c59d4430e9419b065849d10cbeec7ef6eae44174da4b93dd631e4507deb4e6c6f21c3527a8a0c42dfd5b23b4ead
+###
+GET  http://localhost:8080/test
+token:{{token}}
+###
+POST  http://localhost:8080/login
+Content-Type: application/json
+
+{
+ "id": 1,
+  "password": "abc123",
+  "name": "sss",
+  "authority": 2
+}

@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: laboratory
+  datasource:
+    url: 'jdbc:mysql://localhost:3306/labreserve?
+          createDatabaseIfNotExist=true
+          &serverTimezone=Asia/Shanghai'
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jackson:
+    default-property-inclusion: non_null
+server:
+  port: 8080
+logging:
+  level:
+    root: warn
+    com:
+      example: debug
+  pattern:
+    console: '%-5level %C.%M[%line] - %msg%n'
+my:
+  secretkey: R28K42ZEJ8LWRHU5
+  salt: 636eac2534bcfcb0
+
+
