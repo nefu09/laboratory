@@ -10,7 +10,13 @@ Content-Type: application/json
 
 {
  "id": 1,
-  "password": "abc123",
-  "name": "sss",
-  "authority": 2
+  "password": "abc123"
+}
+###
+POST  http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "id": 2,
+  "password": "123456"
 }

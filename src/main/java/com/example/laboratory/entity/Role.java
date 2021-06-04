@@ -11,8 +11,9 @@ import lombok.*;
 @AllArgsConstructor
 @TableName("role")
 public class Role {
-    private int id;
+    private String id;
     private String password;
+    private String userName;
     private String name;
-    private int authority;
+    private Integer authority;
 }

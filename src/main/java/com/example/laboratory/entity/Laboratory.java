@@ -12,7 +12,8 @@ import lombok.*;
 @AllArgsConstructor
 @TableName("laboratory")
 public class Laboratory {
-    private int id;
-    private int capacity;
+    private String id;
+    private String name;
+    private Integer capacity;
     private String description;
 }

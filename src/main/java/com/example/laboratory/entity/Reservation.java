@@ -11,8 +11,11 @@ import lombok.*;
 @AllArgsConstructor
 @TableName("reservation")
 public class Reservation {
-    private int id;
-    private int teacherId;
-    private int courseId;
-    private int laboratoryId;
+    private String id;
+    private String teacherId;
+    private String courseId;
+    private String laboratoryId;
+    private int week;
+    private int day;
+    private int lesson;
 }

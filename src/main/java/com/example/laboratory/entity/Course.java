@@ -11,8 +11,8 @@ import lombok.*;
 @AllArgsConstructor
 @TableName("course")
 public class Course {
-    private int id;
+    private String id;
     private String name;
-    private int studentNumber;
-    private int period;
+    private Integer studentNumber;
+    private Integer period;
 }
